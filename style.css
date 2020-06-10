@@ -1,0 +1,64 @@
+body {
+  background-color: #EAF0F2;
+}
+
+.heading {
+ width: 100%;
+ height: 100px;
+ background-color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.calender {
+  width: 100%;
+  /* height: 150; */
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.weekday {
+  margin: 10;
+  width: 150;
+  height: 180;
+  background-color: teal;
+}
+
+.weekdayHeading {
+  height: 20;
+  background-color: #ABA0EC;
+  color: white;
+  text-align: right;
+  padding: 5;
+}
+
+.bdayBox {
+  display: flex;
+  max-height: 150;
+  width: 150;
+  flex-wrap: wrap;
+}
+
+.bday {
+  height: 25;
+  width: 25;
+  background-color: blue;
+}
+
+.jsonBox {
+  width: 50%;
+}
+
+.controlsBox {
+  width: 50%;
+}
+
+.updateBtn {
+  height: 30;
+  width: 120;
+  background-color: blue;
+  color: white;
+}
