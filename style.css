@@ -31,7 +31,7 @@ body {
   height: 20;
   background-color: #ABA0EC;
   color: white;
-  text-align: right;
+  text-align: center;
   padding: 5;
 }
 
@@ -54,8 +54,25 @@ body {
   width: 50%;
 }
 
-.controlsBox {
+.controls {
+  display: flex;
+  background-color: white;
+  height: 600;
+}
+
+.controlsBoxLeft {
   width: 50%;
+  padding-top: 50;
+}
+
+.jsonInput {
+  width: 300;
+  height: 300;
+}
+
+.controlsBoxRight {
+  width: 50%;
+  padding-top: 50;
 }
 
 .updateBtn {

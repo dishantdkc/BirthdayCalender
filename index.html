@@ -6,53 +6,60 @@
   <title>Bday Calender</title>
 </head>
 
-<body>
+<body onload="addDefaultJson()">
   <div class="heading">
     <h1>Birthday Calender</h1>
   </div>
   <div class="calender">
     <div class="weekday">
-      <div class="weekdayHeading">Mon</div>
+      <div class="weekdayHeading">Monday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Tue</div>
+      <div class="weekdayHeading">Tuesday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Wed</div>
+      <div class="weekdayHeading">Wednesday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Thu</div>
+      <div class="weekdayHeading">Thursday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Fri</div>
+      <div class="weekdayHeading">Friday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Sat</div>
+      <div class="weekdayHeading">Saturday</div>
       <div class="bdayBox">
       </div>
     </div>
     <div class="weekday">
-      <div class="weekdayHeading">Sun</div>
+      <div class="weekdayHeading">Sunday</div>
       <div class="bdayBox">
       </div>
     </div>
   </div>
-  <div>
-    <div class="constrolsBox">
-      <input type="text" class="yearInput" id="year" />
-      <button type="button" class="updateBtn" onclick="update()">Update</button>
+
+  <form onsubmit="return false" class="controls">
+    <div class="controlsBoxLeft">
+      <textarea id='bdayJson' class="jsonInput">
+
+      </textarea>
     </div>
-  </div>
+    <div class="controlsBoxRight">
+      <input type="text" class="yearInput" id="year" placeholder="YYYY" />
+      <button type="submit" class="updateBtn" onclick="update()">Update</button>
+    </div>
+  </form>
+
 </body>
 
 </html>
