@@ -24,7 +24,7 @@ body {
   margin: 10;
   width: 150;
   height: 180;
-  background-color: teal;
+  box-shadow: 3px 3px 15px #ccc;
 }
 
 .weekdayHeading {
@@ -43,9 +43,11 @@ body {
 }
 
 .bday {
-  height: 25;
-  width: 25;
-  background-color: blue;
+  color:white;
+  display: flex;
+  font-size: 12;
+  justify-content: center;
+  align-items: center;
 }
 
 .jsonBox {
@@ -61,4 +63,23 @@ body {
   width: 120;
   background-color: blue;
   color: white;
+}
+
+.yearInput {
+  width: 170;
+  height: 40;
+}
+
+.noBdaySadFaceBox {
+  height: 150;
+  width: 150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+}
+
+.noBdaySadFace {
+  height: 40;
+  width: 40;
 }
